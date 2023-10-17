@@ -10,7 +10,7 @@ import smile from "../../assets/smile.png";
 import { collection, query, where, onSnapshot } from "firebase/firestore";
 import { db } from "../firebase/firebase";
 import { useParams } from "react-router-dom";
-za
+
   const FriendProfile = () => {
   const { id } = useParams();
   const [profile, setProfile] = useState(null);
